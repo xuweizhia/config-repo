@@ -7,8 +7,8 @@ eureka:
 girl:
   age: '1522'
   name: jackss
-server:
-  port: '8081'
+# server:
+#   port: '8081'
 spring:
   application:
     name: order
