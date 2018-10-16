@@ -12,6 +12,9 @@ girl:
 spring:
   application:
     name: order
+  redis:
+    host: 192.168.0.181
+    port: 6379
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: '123456'
