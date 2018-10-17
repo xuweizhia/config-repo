@@ -18,7 +18,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: '123456'
-    url: jdbc:mysql: http://192.168.5.35:3306/SpringCloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    url: jdbc:mysql://192.168.5.35:3306/SpringCloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
     username: root
   http:
     encoding:
