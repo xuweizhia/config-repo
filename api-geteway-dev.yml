@@ -1,0 +1,35 @@
+EVN: 
+  dasdafdfasdfd
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8791/eureka/,http://peer2:8792/eureka/,http://peer3:8793/eureka/
+girl:
+  age: '1522'
+  name: jackss
+# server:
+#   port: '8081'
+spring:
+  application:
+    name: order
+  redis:
+    host: 192.168.43.181
+    port: 6379
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: '123456'
+    url: jdbc:mysql://192.168.43.181:3306/SpringCloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    username: root
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: 'true'
+  jpa:
+    show-sql: 'true'
+  messages:
+    encoding: UTF-8
+  rabbitmq:
+    host: 192.168.43.181
+    password: guest
+    port: '5672'
+    username: guest
