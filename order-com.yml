@@ -13,12 +13,12 @@ spring:
   application:
     name: order
   redis:
-    host: 192.168.5.35
+    host: 192.168.112.21
     port: 6379
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password: '123456'
-    url: jdbc:mysql://192.168.5.35:3306/SpringCloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    password: '158262751'
+    url: jdbc:mysql://192.168.112.21:3306/SpringCloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
     username: root
   http:
     encoding:
@@ -29,7 +29,7 @@ spring:
   messages:
     encoding: UTF-8
   rabbitmq:
-    host: 192.168.5.35
+    host: 192.168.112.21
     password: guest
     port: '5672'
     username: guest
