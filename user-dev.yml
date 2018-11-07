@@ -2,6 +2,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://peer1:8791/eureka/,http://peer2:8792/eureka/,http://peer3:8793/eureka/
+spring:
+  application:
+    name: user
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     password: '158262751'
