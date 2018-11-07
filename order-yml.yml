@@ -13,7 +13,7 @@ spring:
   application:
     name: order
   redis:
-    host: 192.168.112.21
+    host: 192.168.86.21
     port: 6379
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -29,7 +29,7 @@ spring:
   messages:
     encoding: UTF-8
   rabbitmq:
-    host: 192.168.86
+    host: 192.168.86.21
     password: guest
     port: '5672'
     username: guest
