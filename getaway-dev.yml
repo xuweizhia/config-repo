@@ -1,5 +1,6 @@
 # http://localhost:8089/product/product/list
-zuul:
+zuul: 
+  sensitive-headers: #全部忽略敏感头（忽略Cookie）
   routes:
     myProduct: #对应第一个product的地址
       path: /myProduct/**
