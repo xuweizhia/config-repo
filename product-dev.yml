@@ -14,8 +14,8 @@ spring:
     encoding:
       charset: UTF-8
       enabled: 'true'
-  jpa:
-    show-sql: 'true'
+#  jpa:
+#    show-sql: 'true'
   messages:
     encoding: UTF-8
   rabbitmq:
